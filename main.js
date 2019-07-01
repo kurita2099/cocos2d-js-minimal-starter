@@ -1,3 +1,8 @@
+
+import {g_resources} from './src/resource.js';
+import TitleScene from './src/TitleScene.js';
+
+
 cc.game.onStart = function(){
     var sys = cc.sys;
     if(!sys.isNative && document.getElementById("cocosLoading")) //If referenced loading.js, please remove it
@@ -27,7 +32,7 @@ cc.game.onStart = function(){
 
     //load resources
     cc.LoaderScene.preload(g_resources, function () {
-        cc.director.runScene(new MyScene());
+        cc.director.runScene(new TitleScene());
     }, this);
 };
-cc.game.run();
+cc.game.run("gameCanvas");
