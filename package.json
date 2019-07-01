@@ -1,0 +1,27 @@
+{
+  "name": "cocos2d-js-minimal-starter",
+  "version": "1.0.0",
+  "description": "This starter doesn't use any Javascript technology except for cocos2d-js.  So you no longer hassle with day-by-day advance of js tools.  You can focus on only cocos2 and your game's idea !",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" ",
+    "start": "browser-sync start --server --files='*.js src/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurita2099/cocos2d-js-minimal-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurita2099/cocos2d-js-minimal-starter/issues"
+  },
+  "homepage": "https://github.com/kurita2099/cocos2d-js-minimal-starter#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {}
+}
