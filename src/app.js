@@ -10,6 +10,7 @@ var MyScene = cc.Scene.extend({
 		var label = cc.LabelTTF.create("Hello World", "Arial", 40);
 		label.setPosition(size.width / 2, size.height / 2);
 		this.addChild(label, 1);
+    console.log("aaaa")
 	}
 });
 
